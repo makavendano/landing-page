@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+/* Header */
+.header{
+    width: 100%;
+    height: 80px;
+    padding-left: 50px;
+    background-color:#1f2937; 
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.headerlinks {
+    list-style-type: none;
+}
+
+.headerlinks li {
+   display: inline-block;
+   padding: 0px 10px;
+}
+.headerlinks li a{
+text-decoration: none;
+color: whitesmoke; 
+}
+
+a:visited {
+    color: whitesmoke; 
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.pizza img { 
+    height: 400px; 
+    width: auto; 
+}
+
+/* Hero */
+.pizza { 
+    display: flex; 
+    justify-content:flex-end; 
+    padding-left: 120px; 
+}
+
+.hero { 
+    background-color: #1f2937;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 60px; 
+}
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 400px;
+}
+
+.container h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8; 
+    text-align: left;
+}
+
+.container p { 
+    font-size: 18px; 
+    color: #E5E7EB; 
+    padding-bottom: 20px;
+}
+
+.container button {
+    border-radius: 18px; 
+    background-color: #3882F6; 
+    border: none; 
+    text-align: center;
+    color: white; 
+    font-size: 16px;
+    display: inline-block;
+    width: 120px; 
+    padding: 10px; 
+    text-decoration: none; 
+}
+/* Gallery Area */
+.image {
+    display: flex; 
+    justify-content: flex-end; 
+    
+  }
+  .image img { 
+    height: 500px; 
+    width: 100%; 
+    padding-left: 150px; 
+    padding-top: 120px;
+    margin-bottom: 100px;
+  }
+  
+  .main { 
+    background-color: white; 
+    height: auto; 
+  }
+  
+  .gallery { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 40px; 
+  }
+  
+  .gallery h2 { 
+    color: #1f2937; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 36px; 
+  }
+  .images { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 60px; 
+    flex-wrap: wrap; 
+    gap: 40px; 
+    
+  }
+  
+  .pizzaimg img { 
+    width: 200px; 
+    height: 200px; 
+    border: 5px solid #3882F6;
+    border-radius: 18px;
+  }
+  
+  .pizzaimg p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    padding-bottom: 100px;
+  }
+/* Grey Quote Area */
+.greyquote{ 
+    background-color: #E5E7EB;
+
+}
+.quote {
+      font-size: 36px;
+      color: #1F2937; 
+      padding: 100px;
+
+}
+.quote p{ 
+      text-align: left;
+      font-style: italic;
+      margin-left: 500px; 
+      margin-right: 500px; 
+}
+.quote h3 {
+      font-size: 20px;
+      font-weight: bolder;
+      text-align: right;
+      margin-left: 500px; 
+      margin-right: 500px; 
+      padding-top: 5px;
+}
+
+/* Call to action */
+.content {
+    display: flex; 
+    align-items: center; 
+    background-color: #3882F6;
+    border-radius: 18px;
+    padding: 80px; 
+    width: fit-content; 
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.calltoaction p { 
+    color: #E5E7EB; 
+    padding-right: 40px;
+}
+
+.calltoaction h1 { 
+    color: #f9faf8 ; 
+    padding-bottom: 5px;
+}
+
+.signup {
+    border-radius: 12px; 
+    background-color: #3882F6; 
+    border: 5px solid white; 
+    text-align: center;
+    color: white; 
+    font-size: 16px;
+    display: inline-block;
+    width: 120px; 
+    padding: 10px 10px; 
+    text-decoration: none; 
+}
+/* Footer */
+.footercontainer {
+    background-color: #1F2937 ;
+    color: #E5E7EB;
+    padding: 30px;
+    text-align: center;
+}
+
+footer a { 
+    color: #E5E7EB; 
+    text-decoration: none;
+}
